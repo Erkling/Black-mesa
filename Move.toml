@@ -1,0 +1,16 @@
+[package]
+name = "black_mesa"
+version = "1.0.0"
+authors = []
+
+[addresses]
+black_mesa_addr="1f6ef20ee03d5ccc0dc6f4a59d26f010b91b1303e67d3d50370ae2c2e1b3df75"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
